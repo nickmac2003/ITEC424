@@ -1,6 +1,7 @@
 ## Nick MacDonald
 ## Vigenere Cipher
 ## Professor Seasholtz
+## ITEC424
 ## 02/11/2022
 
 ## Function to remove spaces from string

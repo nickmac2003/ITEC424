@@ -56,7 +56,7 @@ if __name__ == "__main__":
         key = generateKey(string, keyword)
         encrypt_text = encryption(string, key)
         print("Encrypted message: ", encrypt_text)
-        print("Decrypted message: ", decryption(encrypt_text, key))
+        ##print("Decrypted message: ", decryption(encrypt_text, key))
     elif type == "D" or type == "d": ## Decryption
         print("")
         string = input("Enter the message to be Encrypted/Decrypted: ")
@@ -65,7 +65,7 @@ if __name__ == "__main__":
         print("")
         key = generateKey(string, keyword)
         encrypt_text = encryption(string, key)
-        print("Encrypted message: ", string)
+        ##print("Encrypted message: ", string)
         print("Decrypted message: ", decryption(string, key))
     else:
         print("Invalid Option...Choose either 'E' or 'D'")
